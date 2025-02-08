@@ -126,7 +126,7 @@ audience : sts.amazonaws.com
     {
       "Effect": "Allow",
       "Principal": {
-        "Federated": "arn:aws:iam::182024812696:oidc-provider/token.actions.githubusercontent.com"
+        "Federated": "arn:aws:iam::<account-id>:oidc-provider/token.actions.githubusercontent.com"
       },
       "Action": "sts:AssumeRoleWithWebIdentity",
       "Condition": {
