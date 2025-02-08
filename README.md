@@ -1,6 +1,6 @@
 # Security Terraform + Github Actions
 
-## Terraform
+## Terraform (Security)
 
 ### 기존 방식 (AccessKey, SecretKey)
 
@@ -59,4 +59,4 @@
 }
 ```
 
-- Provider 수정
+## Github Action (Security)
