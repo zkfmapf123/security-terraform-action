@@ -150,3 +150,7 @@ audience : sts.amazonaws.com
 | repo:ORG-NAME/REPO-NAME:environment:ENVIRONMENT-NAME | 특정 환경에서만 사용 가능           |
 
 ![5](./public/5.png)
+
+### 결과
+
+![6](./public/6.png)
