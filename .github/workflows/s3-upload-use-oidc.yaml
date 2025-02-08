@@ -2,10 +2,8 @@ name: Upload to S3 Use oidc
 
 on:
   push:
-    branches:
-      - master
-    paths:
-      - "index.html"
+    tags:
+      - "v*" # v로 시작하는 모든 태그에서 실행 (예: v1.0.0, v2.1.0 등)
 
 env:
   AWS_REGION: ap-northeast-2
