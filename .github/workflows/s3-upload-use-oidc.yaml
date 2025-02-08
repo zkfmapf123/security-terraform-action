@@ -8,10 +8,11 @@ on:
       - "index.html"
 
 env:
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   AWS_REGION: ap-northeast-2
   S3_BUCKET: test-bucket-leedonggyu-10
+
+permissions:
+  id-token: write
 
 jobs:
   upload:
